@@ -26,14 +26,7 @@ function pressIt() {
 function submitIt() {
   
   $("form").on("submit", function() {
-  if ($( "input:first" ).val() === "correct") {
     alert('your form is going to be submitted now');
-    return;
-  }
-  alert("you entered the wrong value");
-  return;
 });
 }
-
-Define a function submitIt that does not accept a parameter. The function should bind a submit event to the form that alerts "Your form is going to be submitted now.".
   
