@@ -10,7 +10,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('tasty').on('load', function(){
+  $('img').on('load', function(){
+    $('tasty')
 });
 }
 
